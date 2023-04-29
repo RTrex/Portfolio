@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family:'Merriweather',serif;
+    font-size: 1.3rem;
+    font-weight:normal;
+    color:white;
+}
+
+.top-container {
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: #222831;
+}
+.top-container h1 {
+    font-family:'handlee', cursive;
+    font-size: 3.625rem;
+    color:white;
+    margin-top: 10rem;
+    margin-bottom: 0;
+    padding-left: 1.3rem;
+}
+.top-container p {
+    width: 80%;
+}
+.top-container img {
+ margin-top:auto;
+}
+.mid-container {
+    height: 300vh;
+    color:black;
+    background-color:#FCE38A;
+    text-align: center;
+}
+.dp {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dp {
+    height: 20rem;
+    margin-top: 0;
+}
+.he{
+    text-align: center;
+    font-weight: bold;
+    color:#393E46;
+}
+.me {
+    width: 28%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+ hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+ }
+ 
+ .coder {
+    height: 7rem;
+ }
+ .skill-image {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-left:5rem;
+ }
+ .dev {
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+ }
+ .hobby {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-left:8rem;
+ }
+ .message {
+    font-weight: normal;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.btn {
+    border-radius: 1rem;
+    background-color: #71C9CE;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+footer {
+    background-color:#EEEEEE;
+    height:30vh;
+}
+.footer {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    font-size: 1rem;
+}
+.copyright {
+    color:#222831;
+    text-align:center;
+    font-size: 0.8rem;
+    margin-top:0;
+}
+
+
+
+
+
+
