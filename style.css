@@ -1,10 +1,10 @@
 body {
     margin: 0;
-    font-family:'Merriweather',serif;
     font-size: 1.3rem;
     font-weight:normal;
-    background-color:#EEEEEE;
+    background-color:#222831;
     color:white;
+    text-align:center;
 }
 
 .top-container {
@@ -20,24 +20,27 @@ body {
     color:white;
     margin-top: 10rem;
     margin-bottom: 0;
-    padding-left: 1.3rem;
+    padding-left: 2.3rem;
+}
+.branch {
+    margin-left:6rem;
 }
 .top-container p {
     width: 80%;
 }
 .top-container img {
- margin-top:auto;
+ margin-left:1rem;
 }
 .mid-container {
-    height: 300vh;
     color:black;
-    background-color:#FCE38A;
+    background-color:#EEEEEE;
     text-align: center;
+
 }
-.dp {
-    display:flex;
-    margin-left: auto;
-    margin-right: auto;
+.code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .dp {
     height: 20rem;
@@ -46,29 +49,37 @@ body {
 .he{
     text-align: center;
     font-weight: bold;
-    color:#393E46;
+    color:#00ADB5;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-.me {
-    width: 28%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.about {
+ width: 28%;
+ margin: auto;
+
 }
  hr {
     border: dotted #eaf6f6 6px;
     border-bottom: none;
     width: 4%;
-    margin: 100px auto;
+    margin: 90px auto;
  }
  
  .coder {
     height: 7rem;
+ }
+ .skills {
+    margin-bottom: 1rem;
  }
  .skill-image {
     display: flex;
     flex-direction:row;
     justify-content: center;
     margin-left:5rem;
+ }
+ .hobbies {
+    margin-bottom: 1.5rem;
  }
  .dev {
     margin-top: 0.3rem;
@@ -82,34 +93,34 @@ body {
  }
  .message {
     font-weight: normal;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.project {
+    margin-bottom: 3rem;
 }
 .btn {
     border-radius: 1rem;
-    background-color: #71C9CE;
+    background-color: #393E46;
     color: white;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     font-size: 1rem;
 }
-footer {
-    margin-top: 3rem;
-    background-color:#EEEEEE;
-    margin-bottom: 3rem;
-}
 .footer {
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap:2rem;
     font-size: 1rem;
+    margin-top: 3rem;
+    background-color:#222831;
+    margin-bottom: 2rem;
 }
-.copyright {
-    color:#222831;
-    text-align:center;
-    font-size: 0.8rem;
-    margin-right: 1.5rem;
+.footer-tag {
+    text-decoration:none;
+    color:#EEEEEE;
 }
 
 
