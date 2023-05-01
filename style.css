@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight:normal;
     background-color:#222831;
     color:white;
@@ -122,6 +122,11 @@ body {
     text-decoration:none;
     color:#EEEEEE;
 }
+.personal-info {
+    width: 60%;
+    margin:auto;
+   
+}    
 
 
 
